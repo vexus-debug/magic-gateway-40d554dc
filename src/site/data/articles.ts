@@ -2,6 +2,42 @@
  * Clinexus articles (blog). Add new articles to `articles` below.
  * Body is a list of simple blocks so posts render consistently.
  */
+import dentalRecall from "@/assets/articles/dental-recall.jpg";
+import eyeDispensary from "@/assets/articles/eye-dispensary.jpg";
+import frontDesk from "@/assets/articles/front-desk.jpg";
+import clinicOwner from "@/assets/articles/clinic-owner.jpg";
+import dentalTech from "@/assets/dental-technology.jpg";
+import clinicInterior from "@/assets/clinic-interior.jpg";
+import dentistPatient from "@/assets/dentist-patient.jpg";
+import hereSmile from "@/assets/hero-smile.jpg";
+import aDentalCharts from "@/assets/current-dashboard/dental-charts.png.asset.json";
+import aDentalTreatments from "@/assets/current-dashboard/dental-treatments.png.asset.json";
+import aDentalProfit from "@/assets/current-dashboard/dental-profitability.png.asset.json";
+import aDentalBilling from "@/assets/current-dashboard/dental-billing.png.asset.json";
+import aDentalInventory from "@/assets/current-dashboard/dental-inventory.png.asset.json";
+import aDentalAppointments from "@/assets/current-dashboard/dental-appointments.png.asset.json";
+import aDentalDashboard from "@/assets/current-dashboard/dental-dashboard.png.asset.json";
+import aDentalPatients from "@/assets/current-dashboard/dental-patients.png.asset.json";
+import aEyeOrders from "@/assets/current-dashboard/eye-orders.png.asset.json";
+import aEyePrescriptions from "@/assets/current-dashboard/eye-prescriptions.png.asset.json";
+import aEyeExams from "@/assets/current-dashboard/eye-exams.png.asset.json";
+import aEyeSurgery from "@/assets/current-dashboard/eye-surgery.png.asset.json";
+import aEyeContacts from "@/assets/current-dashboard/eye-contact-lenses.png.asset.json";
+
+const dentalCharts = aDentalCharts.url;
+const dentalTreatments = aDentalTreatments.url;
+const dentalProfit = aDentalProfit.url;
+const dentalBilling = aDentalBilling.url;
+const dentalInventory = aDentalInventory.url;
+const dentalAppointments = aDentalAppointments.url;
+const dentalDashboard = aDentalDashboard.url;
+const dentalPatients = aDentalPatients.url;
+const eyeOrders = aEyeOrders.url;
+const eyePrescriptions = aEyePrescriptions.url;
+const eyeExams = aEyeExams.url;
+const eyeSurgery = aEyeSurgery.url;
+const eyeContacts = aEyeContacts.url;
+
 
 export type ArticleCategorySlug =
   | "practice"
